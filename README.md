@@ -32,7 +32,7 @@ conda activate ./env
 ```bash
 pip install -r requirements.txt
 ```
-* Run main.py with the sample video file to generate the test.csv file 
+* Run main.py with the sample video file to generate the test.csv file or provide ip of your camera
 ``` python
 python main.py
 ```
