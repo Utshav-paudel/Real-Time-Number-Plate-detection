@@ -46,4 +46,4 @@ python add_missing_data.py
 python visualize.py
 ```
 
-# Demo 
+# Demo of Real Time object detection
