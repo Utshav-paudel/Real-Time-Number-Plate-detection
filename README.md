@@ -19,6 +19,8 @@ The sort module needs to be downloaded from [this repository](https://github.com
 
 ## Project Setup
 
+Follow this steps to get your real time number plate detection ready
+
 * Make an environment with python=3.8 using the following command 
 ``` bash
 conda create --prefix ./env python==3.8 -y
