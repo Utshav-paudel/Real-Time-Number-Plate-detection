@@ -18,8 +18,8 @@ coco_model = YOLO('yolov8n.pt')
 license_plate_detector = YOLO('license_plate_detector.pt')
 
 # IP camera URL
-ip_camera_url =  ""  # Example URL from IP Webcam app
-cap = cv2.VideoCapture(ip_camera_url)  # You mentioned 'sample.mp4' but I assume you want real-time feed
+ip_camera_url =  "sample.mp4"  # Example URL from IP Webcam app
+cap = cv2.VideoCapture(ip_camera_url)  
 
 # Check if the connection is successful
 if not cap.isOpened():
@@ -38,7 +38,7 @@ def append_to_csv(data, csv_file):
 csv_file = './test.csv'
 with open(csv_file, 'w', newline='') as f:
     writer = csv.writer(f)
-    writer.writerow(['Frame', 'Car ID', 'Car BBox', 'License Plate BBox', 'License Plate Text', 'BBox Score', 'Text Score'])
+    writer.writerow(['frame_nmr', 'car_id', 'car_bbox', 'license_plate_bbox', 'license_plate_text', 'bbox_score', 'text_score'])
 
 # Read frames
 frame_nmr = -1
