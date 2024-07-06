@@ -49,3 +49,5 @@ python visualize.py
 ```
 
 # Demo of Real Time object detection
+
+Problem to solve  : Implement process with gpu
